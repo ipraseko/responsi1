@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cok"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/cok2" />
+
+    <EditText
+        android:id="@+id/txt_username"
+        android:background="#11000000"
+        android:textColor="#ffffff"
+        android:text="Username"
+        android:drawableLeft="@drawable/alphard"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_user"
+        android:layout_marginTop="271dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:text="passowrd"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/bmw"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt_username"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_password"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/button_rectangle_pink"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_login"
+        android:layout_marginTop="20dp"
+        android:text="Singin"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        />
+
+</RelativeLayout>
+
